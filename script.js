@@ -1,14 +1,7 @@
-//prompt("How many characters do you want your password to contain? (Enter a number between 8 and 128) ");
-//confirm("Click OK to include special characters in password");
-//confirm("Click OK to include numeric characters");
-//confirm("Click OK to include lowercase characters");
-//confirm("Click OK to include uppercase characters");
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-//var specialCharacters = confirm("Click OK to include special characters in password");
-//var numericCharacters = confirm("Click OK to include numeric characters");
-//var lowerCaseCharacters = confirm("Click OK to include lowercase characters");
-//var uppercaseCharacters = confirm("Click OK to include uppercase characters");
+
 
 const numericCharacters = [1234567890];
 const uppercase = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
@@ -17,7 +10,7 @@ const specialCharacters = "#$%&'()*+,-./:;<=>?@\^_`{|}~[!]";
 
 function generatePassword() {
   var passwordLength = prompt("How many characters do you want your password to contain? (Enter a number between 8 and 128) ");
-  console.log(passwordLength)
+  console.log(passwordLength) }
  if (passwordLength >7) {
   console.log(passwordLength + " is the password length")
  } else {
@@ -26,24 +19,21 @@ function generatePassword() {
   var specialCharacters = confirm("Click OK to include special characters in password");
   console.log(specialCharacters)
   if (specialCharacters = true) {
-    console.log("Yes to special characters")
+    console.log("Yes to special characters")}
   var numericCharacters = confirm("Click OK to include numeric characters");
     console.log(numericCharacters)
-    if (numericCharacters = true) {
-      console.log("Yes to numeric characters")
+  if (numericCharacters = true) {
+      console.log("Yes to numeric characters")}
       var uppercase = confirm("Click OK to include uppercase characters");
     console.log(uppercase)
-    if (uppercase = true) {
-      console.log("Yes to uppercase characters")
+  if (uppercase = true) {
+      console.log("Yes to uppercase characters")}
       var lowercase = confirm("Click OK to include lowercase characters");
     console.log(lowercase)
-    if (lowercase = true) {
+  if (lowercase = true) {
       console.log("Yes to lowercase characters")
     
     
-    }}
-    } 
-    }  
     }
   
  
