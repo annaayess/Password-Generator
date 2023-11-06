@@ -19,15 +19,18 @@ function generatePassword() {
   var specialCharacters = confirm("Click OK to include special characters in password");
   console.log(specialCharacters)
   if (specialCharacters = true) {
-    console.log("Yes to special characters")}
+    console.log("Yes to special characters")
+  }  
   var numericCharacters = confirm("Click OK to include numeric characters");
     console.log(numericCharacters)
   if (numericCharacters = true) {
-      console.log("Yes to numeric characters")}
+      console.log("Yes to numeric characters")
+  }    
       var uppercase = confirm("Click OK to include uppercase characters");
     console.log(uppercase)
   if (uppercase = true) {
-      console.log("Yes to uppercase characters")}
+      console.log("Yes to uppercase characters")
+  }    
       var lowercase = confirm("Click OK to include lowercase characters");
     console.log(lowercase)
   if (lowercase = true) {
