@@ -17,6 +17,7 @@ purpose.
 Included here are images of the first prompt after you click the 'Generate Password' button, a prompt asking users to confirm if they would like lowercase letters in the password, and a sample password that has beeen generated based on user chosen criteria.
 
 Here is a link to the deployed webpage!
+https://annaayess.github.io/Password-Generator/
 
 ## Support
 If you need any help with this webpage please reach out to me @ anna.yesaulov@gmail.com
