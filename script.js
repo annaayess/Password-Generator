@@ -42,7 +42,7 @@ function generatePassword() {
   if (lowercase == true) {
     acceptableCharacters = acceptableCharacters.concat(lowercaseList);
     genCharacters.push(getRandom(lowercaseList));
-
+  }
   for (var i = 0; i < passwordLength; i++) {
     var randomCharacter = getRandom(acceptableCharacters);
     result.push(randomCharacter)
@@ -57,7 +57,7 @@ function generatePassword() {
 
 
   //return "Generated Password"
-}
+
 function getRandom(arr) {
   var randIndex = Math.floor(Math.random() * arr.length);
   var randElement = arr[randIndex];
