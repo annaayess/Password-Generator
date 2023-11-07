@@ -47,7 +47,7 @@ function generatePassword() {
     var randomCharacter = getRandom(acceptableCharacters);
     result.push(randomCharacter)
   }
-  for (var i = 0; i < genCharacters.length; i++) {
+  for (var i = 0; i < genCharacters.passwordLength; i++) {
     result[i] = genCharacters[i];
   }
   return result.join('');
