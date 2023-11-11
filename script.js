@@ -13,11 +13,12 @@ function generatePassword() {
   var acceptableCharacters = "";
   var result =  [];
   var genCharacters = [];
-  if (passwordLength > 7) {
-
-  } else {
+  if (passwordLength < 8 || passwordLength > 128) {
     alert("Password length must be between 8 and 128 characters!");
-  }
+    return generatePassword();
+  } 
+  
+  
   var specialCharacters = confirm("Click OK to include special characters in password");
 
   if (specialCharacters == true) {
